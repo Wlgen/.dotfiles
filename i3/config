@@ -213,3 +213,11 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Dunst
 exec --no-startup-id dunst
+
+# i3 colors
+# class                 border  bground text    indicator child_border
+client.focused          #56ADBC #56ADBC #DFDFDF #56ADBC   #56ADBC
+client.focused_inactive #020205 #020205 #DFDFDF #020205   #020205
+client.unfocused        #020205 #020205 #DFDFDF #020205   #020205
+client.urgent           #020205 #900000 #DFDFDF #900000   #900000
+client.placeholder      #020205 #020205 #DFDFDF #020205   #020205
