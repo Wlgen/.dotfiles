@@ -20,7 +20,7 @@ font pango:NotoSansDisplay Nerd Font 10
 #font pango:DejaVu Sans Mono 8
 
 # wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Imágenes/mario-dark-wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill ~/Imágenes/spiderverse.jpg
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -156,6 +156,18 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# Bind workspaces to displays
+workspace $ws1 output DP-0
+workspace $ws2 output DP-0
+workspace $ws3 output DP-0
+workspace $ws4 output DP-0
+workspace $ws5 output DP-0
+workspace $ws6 output HDMI-0
+workspace $ws7 output HDMI-0
+workspace $ws8 output HDMI-0
+workspace $ws9 output HDMI-0
+workspace $ws10 output HDMI-0
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -213,3 +225,16 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Dunst
 exec --no-startup-id dunst
+
+# Remove mouse warping
+mouse_warping none
+
+# i3 colors
+# class                 border  bground text    indicator child_border
+client.focused          #56ADBC #56ADBC #DFDFDF #56ADBC   #56ADBC
+client.focused_inactive #020205 #020205 #DFDFDF #020205   #020205
+client.unfocused        #020205 #020205 #DFDFDF #020205   #020205
+client.urgent           #020205 #900000 #DFDFDF #900000   #900000
+client.placeholder      #020205 #020205 #DFDFDF #020205   #020205
+
+client.background       #dfdfdf
