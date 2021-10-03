@@ -1,4 +1,0 @@
-configuration {
-	font: "NotoSans Nerd Font 12";
-}
-@theme "/home/ivan/.config/rofi/sidebar.rasi"
