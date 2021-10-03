@@ -19,9 +19,6 @@ font pango:NotoSansDisplay Nerd Font 10
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
-# wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Imágenes/spiderverse.jpg
-
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -215,8 +212,6 @@ for_window [class=".*"] border pixel 2
 gaps inner 4
 gaps outer 1
 
-smart_borders on
-
 # Compositor
 exec --no-startup-id picom --experimental-backends -b
 
@@ -238,3 +233,7 @@ client.urgent           #020205 #900000 #DFDFDF #900000   #900000
 client.placeholder      #020205 #020205 #DFDFDF #020205   #020205
 
 client.background       #dfdfdf
+
+# Wallpaper
+exec_always --no-startup-id nitrogen --set-auto --random /home/ivan/wallpapers --head=0
+exec_always --no-startup-id nitrogen --set-auto --random /home/ivan/wallpapers --head=1
