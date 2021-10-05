@@ -230,7 +230,7 @@ interval = 3.0
 
 format-connected = <label-connected>
 format-connected-underline = #9f78e1
-label-connected = 直 %signal%% %local_ip%
+label-connected = 直%essid% %signal%% %local_ip%
 
 format-disconnected = <label-disconnected>
 label-disconnected = 睊
