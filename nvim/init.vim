@@ -5,7 +5,6 @@ filetype on  " Activa la detección del tipo de archivo de forma automática
 set colorcolumn=80  " Añade una columna de color a la cantidad de carácteres indicada
 set ignorecase  " Ignora las mayúsculas al hacer una búsqueda
 set smartcase  " No ignorar las mayúsculas si la palabra buscada está escrita con mayúsculas
-set spelllang=en,es
 set termguicolors  " Activa true clors en la terminal
 set cursorline  " Resalta la línea actual
 set nobackup  " Desactiva los archivos de backup
