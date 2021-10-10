@@ -50,7 +50,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 375-
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -235,5 +235,4 @@ client.placeholder      #020205 #020205 #DFDFDF #020205   #020205
 client.background       #dfdfdf
 
 # Wallpaper
-exec_always --no-startup-id nitrogen --set-auto --random /home/ivan/wallpapers --head=0
-exec_always --no-startup-id nitrogen --set-auto --random /home/ivan/wallpapers --head=1
+exec_always --no-startup-id nitrogen --set-auto --random ~/wallpapers --head=0 && nitrogen --set-auto --random ~/wallpapers --head=1

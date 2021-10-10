@@ -1,2 +1,4 @@
 .zshenv
 .zshrc
+.vimrc
+.vim
