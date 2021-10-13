@@ -26,8 +26,15 @@ set noswapfile
 colorscheme onedark
 filetype plugin indent on
 set incsearch
+set hidden
+set bufhidden=delete
 set scrolloff=1
 set sidescrolloff=5
+set nobackup
+set nowritebackup
+set cmdheight=2
+set updatetime=300
+
 
 " Change cursor to line in insert mode "
 let &t_SI = "\e[6 q"
